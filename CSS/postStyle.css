@@ -1,0 +1,131 @@
+.post_wrapper {
+    width: 350px;
+    position: relative;
+    margin: auto;
+    border: 2px solid #333;
+    height: 325px;
+    background-color: white;
+    box-shadow: 5px 3px 2px grey;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    /*background-color: #D3D3D3;*/
+}
+
+.profile {
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.profile:hover {
+    cursor: pointer;
+}
+
+.options {
+    float: right;
+    padding: 0px 10px 5px 5px;
+}
+
+.options:hover {
+    cursor: pointer;
+}
+
+.status_pic {
+    width: 100%;
+    height: 150px;
+    box-shadow: 2px 2px 1px white;
+}
+
+.name {
+    padding: 5px 8px 8px 2px;
+    display: inline-block;
+    font-size: 12px;
+    color: black;
+}
+
+p {
+    text-align: left;
+    font-size: 10px;
+    margin-top: -8px;
+    padding: 4px;
+}
+
+.status {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    left: 0px;
+    color: black;
+    word-wrap: break-word;
+    font-size: 11px;
+}
+
+.text_status {
+    padding: 5px;
+}
+
+table {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 5px;
+    width: 100%;
+    background-color: white;
+}
+
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border: 0px solid #666;
+    text-align: center;
+    vertical-align: middle;
+    font-family: lucida;
+}
+td:hover{
+    box-shadow: 2px 2px 1px grey;
+}
+td:active {
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+.c_and_l {
+    position: absolute;
+    padding: 5px;
+    bottom: 30px;
+}
+
+.xy {
+    display: inline;
+}
+
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    right: 20px;
+    background-color: #f9f9f9;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.options:hover .dropdown-content {
+    display: block;
+}
+.drop{
+    display: block;
+    color: black;
+
+}
+a{
+    text-decoration:none;
+}
